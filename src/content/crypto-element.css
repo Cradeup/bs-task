@@ -1,0 +1,19 @@
+.crypto-element-par{
+    display: grid;
+    grid-template-areas: "side element-column element-column element-column side";
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#element-column{
+    grid-area: element-column;
+}
+
+.element-column{
+    text-align: center;
+}
+
+#side{
+    grid-area: side;
+}

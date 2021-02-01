@@ -1,0 +1,8 @@
+.window-par{
+    width: 640px;
+    height: 500px;
+    border: 1px black solid;
+    border-radius: 12px;
+    margin: auto;
+    overflow: hidden;
+}

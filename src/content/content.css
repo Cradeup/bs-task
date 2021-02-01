@@ -1,0 +1,135 @@
+#content-par{
+    width: 1280px;
+    height: 500px;
+    position: relative;
+    transition: 0.5s ease-in;
+    left: 0;
+}
+
+.button-left{
+    height: 25px;
+    width: 65px;
+    position: absolute;
+    margin-left: 540px;
+    background-color:  #c2d9ff;
+    border: none;
+}
+
+.first-page{
+    width: 640px;
+    height: 440px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.columns{
+    height: 40px;
+    display: grid;
+    grid-template-areas: "side column column column side";
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    margin-top: 30px;
+}
+
+#column{
+    grid-area: column;
+    
+}
+
+.column{
+    text-align: center;
+}
+
+#side{
+    grid-area: side;
+}
+
+.line{
+    height: 2px;
+    width: 540px;
+    background-color: #ededed;
+    margin: auto;
+}
+
+.user-balance{
+    margin-top: 15px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 2px 1px  #ededed;
+    height: 220px;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.converter-par{
+    height: 220px;
+    width: 300px;
+    box-shadow: 0px 0px 2px 1px  #ededed;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.balance-name{
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #c2d9ff;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 8px;
+}
+
+.converter-name{
+    margin-bottom: 5px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #c2d9ff;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cash-add-input{
+    width: 146px;
+    height: 30px;
+    background-color: #ededed;
+    border: none;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.cash-add-input:focus{
+    outline: none;
+}
+
+.cash-add-button{
+    border: none;
+    background-color: #c2d9ff;
+    margin-top: 4px;
+    width: 90px;
+    height: 30px;
+}
+
+.cash-add-button:focus{
+    outline: none;
+}
+
+.cash-add-button:active{ 
+    background-color: #9ec3ff;
+}
+
+.convert-unput-area{
+    width: 296px;
+    height: 30px;
+    background-color: #ededed;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.convert-unput-area:focus{
+    outline: none;
+}

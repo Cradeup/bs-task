@@ -1,0 +1,44 @@
+.second-page{
+    width: 640px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.button-right{
+    height: 25px;
+    width: 65px;
+    position: absolute;
+    margin-left: 540px;
+    background-color:  #c2d9ff;
+    border: none;
+}
+
+.second-page-content{
+    margin-top: 30px;
+}
+
+.chart{
+    margin-left: 40px;
+}
+
+.distr-line{
+    width: 250px;
+    height: 2px;
+    background-color: #ededed;
+}
+
+.chage-graph-select{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.change-graph-line{
+    width: 540px;
+    height: 2px;
+    background-color: #ededed;
+}
+
+.change-graph{
+    margin-left: 40px;
+}
